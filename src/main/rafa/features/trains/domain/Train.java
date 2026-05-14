@@ -2,6 +2,9 @@ package main.rafa.features.trains.domain; //cambiar por la ruta correcta
 
 public class Train {
     private String id;
+    private String name;
+    private String model;
+    private String maxSpeed;
 
     public String getId() {
         return id;
